@@ -1,0 +1,30 @@
+#iCESugar v1.5
+
+set_io clk 35
+set_frequency clk 12
+
+
+# Push Button
+set_io -pullup yes btn   31
+set_io -pullup yes btn2  28
+
+
+# 7-Seg Display (Pmod2)
+set_io seg7[0] 37  # a
+set_io seg7[1] 38  # b
+set_io seg7[2] 42  # c
+set_io seg7[3] 43  # d
+set_io seg7[4] 44  # e
+set_io seg7[5] 45  # f
+set_io seg7[6] 46  # g
+set_io dp 36  # dp
+
+
+# On-board LED
+set_io led_r   40
+set_io led_g   41
+set_io led_b   39
+
+
+# DIP Switches (Pmod3)
+set_io -pullup yes sw 34

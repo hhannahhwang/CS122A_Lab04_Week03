@@ -1,2 +1,12 @@
+#iCESugar v1.5
+
 set_io clk 35
 set_frequency clk 12
+
+# Push Button
+set_io -pullup yes btn 31
+
+# On-board LED
+set_io led_r   40
+set_io led_g   41
+set_io led_b   39
